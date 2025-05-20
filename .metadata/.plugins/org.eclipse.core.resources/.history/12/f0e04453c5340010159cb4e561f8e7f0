@@ -1,0 +1,27 @@
+package com.mx.Coche;
+
+public class Coche {
+	//definicion de atributos: definicon de caracteristicas o propiedades que represntan la objeto
+	private String marca;
+	private String subMarca;
+	private int modelo;
+	private String color;
+	private double precio;
+	
+	//Constructores: Inicializan el objeto, estos se ejecutan cuando se crea la instancia del objeto
+	
+	//constrcutor vacio o constructor por defecto 
+	public Coche() {
+		
+	}
+	
+	//Constructor parametrizado: incializar el objeto con valores especificos(atributos)
+	public Coche(String marca, String subMarca, int modelo, String color, double precio) {
+		this.marca=marca;
+		this.subMarca=subMarca;
+		this.modelo=modelo;
+		this.color=color;
+		this.precio=precio;
+	}
+
+}

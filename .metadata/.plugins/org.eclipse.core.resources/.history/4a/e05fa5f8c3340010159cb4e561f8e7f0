@@ -1,0 +1,11 @@
+package com.mx.Coche;
+
+public class Coche {
+	//definicion de atributos
+	private String marca;
+	private String subMarca;
+	private int modelo;
+	private String color;
+	private double precio;
+
+}

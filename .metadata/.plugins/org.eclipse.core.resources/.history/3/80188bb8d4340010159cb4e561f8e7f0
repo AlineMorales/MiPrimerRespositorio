@@ -1,0 +1,44 @@
+package com.mx.Coche;
+
+import java.util.ArrayList;
+import java.util.List;
+
+public class Principal {
+	
+	public static void main(String[] args) {
+		//intancias de nuetro objeto: amnda a llamar ami clase, ya hregar el valor epsecifico 
+		Coche coche1 = new Coche("Toyota", "Corolla", 2001, "rojo", 200000);
+		Coche coche2 = new Coche("Chevrolet", "js", 2012, "Azul", 1000000000);
+		Coche coche3 = new Coche("Nissan", "Versa", 2024, "_Rojo", 300000);
+		Coche coche4 = new Coche("Toyota", "Tacoma", 2024, "blanco", 1700000);
+		Coche coche5 = new Coche("Ford", "Fiesta", 2025, "Nego", 400000);
+		Coche coche6 = new Coche("Ford", "Mustang", 2021, "Blanco", 250000);
+		
+		//objeto auxiliar: para poder asignarles un valor de busqueda
+		//des declara nulo para depseues asinarle un valor que se requiera
+		Coche auxCoche=null;
+		
+		//creacion de una lista 
+		//es una estruitura de datos que permite alamcenar elementos de manera ordenada 
+		//Se usa la interfaz List que poreviene de java.util
+		
+		List<Coche> lista = new ArrayList<Coche>();
+		
+		//guardar objetos en la lista
+		lista.add(coche1);
+		lista.add(coche2);
+		lista.add(coche3);
+		lista.add(coche4);
+		lista.add(coche5);
+		lista.add(coche6);
+		
+		//Mostrar los datos en la lista
+		System.out.println("Elementos en la lista\n" + lista);
+		
+		
+		
+		
+		
+	}
+
+}

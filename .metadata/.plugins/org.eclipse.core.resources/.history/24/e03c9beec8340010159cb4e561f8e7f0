@@ -1,0 +1,17 @@
+package com.mx.Coche;
+
+public class Principal {
+	
+	public static void main(String[] args) {
+		//intancias de nuetro objeto: amnda a llamar ami clase, ya hregar el valor epsecifico 
+		Coche coche1 = new Coche("Toyota", "Corolla", 2001, "rojo", 200000);
+		
+		
+		
+		
+		
+		
+		
+	}
+
+}

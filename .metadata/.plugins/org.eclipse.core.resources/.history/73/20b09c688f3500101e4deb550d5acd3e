@@ -1,0 +1,53 @@
+package com.mx.Celular;
+
+public class Principal {
+	public static void main(String[] args) {
+		
+		//intanciar el objeto 
+		Celular celular1 = new Celular("Samsung", "s23 fe", 8, "negro", 125, 8000);
+		Celular celular2 = new Celular("Motorola", "Edge 30 ", 16, "verde", 256, 9000);
+		Celular celular3 = new Celular("Xiaomi", "Note 15", 24, "negro", 512, 12000);
+		Celular celular4 = new Celular("Apple", "Iphone 14", 6, "negro", 128, 14000);
+		Celular celular5 = new Celular("apple", "16 pro", 9, "negro", 128, 15000);
+		
+		//objeto auxiliar
+		Celular cel = null;
+		
+		//mandar a llmar a mi clase implemmentacion para poder ocupar sus metodos 
+		Implementacion imp = new Implementacion();
+		
+		//guardar
+		imp.guardar(celular1);
+		imp.guardar(celular2);
+		imp.guardar(celular3);
+		imp.guardar(celular4);
+		imp.guardar(celular5);
+		
+		//mostrar
+		imp.mostrar();
+		
+		//buscar
+		cel = imp.buscar(0);
+		System.out.println("Elemento encontrado: " + cel);
+		
+		//editar
+		cel = imp.buscar(1);
+		cel.setModelo("MotoG 60");
+		cel.setPrecio(2400);
+		imp.editar(1, celular2);
+		imp.mostrar();
+		
+		//eliminar
+		imp.eliminar(3);
+		imp.mostrar();
+		
+		
+		
+		
+		
+		
+		
+		
+	}
+
+}

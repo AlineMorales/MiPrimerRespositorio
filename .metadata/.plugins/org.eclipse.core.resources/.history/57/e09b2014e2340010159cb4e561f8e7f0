@@ -1,0 +1,73 @@
+package com.mx.Coche;
+
+import java.util.ArrayList;
+import java.util.List;
+
+public class Principal {
+	
+	public static void main(String[] args) {
+		//intancias de nuetro objeto: amnda a llamar ami clase, ya hregar el valor epsecifico 
+		Coche coche1 = new Coche("Toyota", "Corolla", 2001, "rojo", 200000);
+		Coche coche2 = new Coche("Chevrolet", "js", 2012, "Azul", 1000000000);
+		Coche coche3 = new Coche("Nissan", "Versa", 2024, "_Rojo", 300000);
+		Coche coche4 = new Coche("Toyota", "Tacoma", 2024, "blanco", 1700000);
+		Coche coche5 = new Coche("Ford", "Fiesta", 2025, "Nego", 400000);
+		Coche coche6 = new Coche("Ford", "Mustang", 2021, "Blanco", 250000);
+		
+		//objeto auxiliar: para poder asignarles un valor de busqueda
+		//des declara nulo para depseues asinarle un valor que se requiera
+		Coche auxCoche=null;
+		
+		//creacion de una lista 
+		//es una estruitura de datos que permite alamcenar elementos de manera ordenada 
+		//Se usa la interfaz List que poreviene de java.util
+		
+		List<Coche> lista = new ArrayList<Coche>();
+		
+		//guardar objetos en la lista
+		lista.add(coche1);
+		lista.add(coche2);
+		lista.add(coche3);
+		lista.add(coche4);
+		lista.add(coche5);
+		lista.add(coche6);
+		
+		//Mostrar los datos en la lista
+		System.out.println("Elementos en la lista\n" + lista);
+		
+		//metodo para buscar un elemento en la lista 
+		auxCoche = lista.get(1);
+		System.out.println("Elemento encontrado: " + auxCoche);
+		
+		//metodo para editar
+		auxCoche = lista.get(0);
+		auxCoche.setColor("AZUL DIAMANTE");
+		auxCoche.setPrecio(250000);
+		System.out.println("Elemento editado " +  auxCoche);
+		
+		
+		//eliminar
+		lista.remove(5);
+		System.out.println("Lista actualizada:\n" + lista);
+		
+		//contar elementos en la lista 
+		System.out.println("Existen : " + lista.size() + " coches en la lista");
+		
+		//eliminar todo 
+		lista.clear();
+		
+		//va;idar si la lista esta vacia 
+		if(lista.isEmpty()) {
+			System.out.println("La lista esta vacia.");
+		}else {
+			System.out.println("La lista es: " +  lista);
+		}
+	}
+	
+	//Realizar como actividad de practica, la replicacion del ejerecico, 
+	//van a crear un nuevo 
+	//proyecto java, con su pauqeem y sus clases para una nueva entidad
+	//van a relizar todas la pruebas de la lista agregando por 
+	//los menos 5 intancias .
+
+}

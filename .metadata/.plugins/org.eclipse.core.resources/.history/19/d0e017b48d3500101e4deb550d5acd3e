@@ -1,0 +1,17 @@
+package com.mx.Celular;
+
+public class Principal {
+	public static void main(String[] args) {
+		
+		//intanciar el objeto 
+		Celular celular1 = new Celular("Samsung", "s23 fe", 8, "negro", 125, 8000);
+		
+		
+		
+		
+		
+		
+		
+	}
+
+}

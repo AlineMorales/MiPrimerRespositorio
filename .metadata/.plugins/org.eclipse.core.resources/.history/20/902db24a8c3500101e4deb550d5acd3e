@@ -1,0 +1,43 @@
+package com.mx.Celular;
+
+import java.util.ArrayList;
+import java.util.List;
+
+public class Implementacion implements IMetodos{
+	
+	//declaracion de una lista
+	List<Celular> lista = new ArrayList<Celular>();
+
+	@Override
+	public void guardar(Celular celular) {
+		lista.add(celular);
+		
+	}
+
+	@Override
+	public void editar(int indice, Celular celular) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public void mostrar() {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public void eliminar(int indice) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public Celular buscar(int indice) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+	
+	
+
+}

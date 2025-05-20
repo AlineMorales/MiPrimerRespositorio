@@ -1,0 +1,7 @@
+package com.mx.Celular;
+
+public interface IMetodos {
+	
+	public void guardar(Celular celular);
+
+}
