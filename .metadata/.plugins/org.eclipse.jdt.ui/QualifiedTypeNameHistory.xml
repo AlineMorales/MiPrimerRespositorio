@@ -1,10 +1,25 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
     <fullyQualifiedTypeName name="java.lang.String"/>
-    <fullyQualifiedTypeName name="java.util.List"/>
-    <fullyQualifiedTypeName name="java.util.ArrayList"/>
     <fullyQualifiedTypeName name="javax.swing.plaf.synth.SynthOptionPaneUI"/>
     <fullyQualifiedTypeName name="com.mx.Coche.Coche"/>
+    <fullyQualifiedTypeName name="com.mx.Celular.IMetodos"/>
+    <fullyQualifiedTypeName name="java.util.List"/>
+    <fullyQualifiedTypeName name="java.util.ArrayList"/>
+    <fullyQualifiedTypeName name="com.mx.Celular.Celular"/>
+    <fullyQualifiedTypeName name="com.mx.Celular.Implementacion"/>
+    <fullyQualifiedTypeName name="java.util.InputMismatchException"/>
+    <fullyQualifiedTypeName name="com.mx.Empleado.IMetodos"/>
+    <fullyQualifiedTypeName name="com.mx.Empleado.Implementacion"/>
     <fullyQualifiedTypeName name="java.util.Scanner"/>
     <fullyQualifiedTypeName name="java.lang.System"/>
+    <fullyQualifiedTypeName name="com.mx.Empleado.Empleado"/>
+    <fullyQualifiedTypeName name="Entidades.Juguete"/>
+    <fullyQualifiedTypeName name="Entidades.VideoJuego"/>
+    <fullyQualifiedTypeName name="Principal.IMetodos"/>
+    <fullyQualifiedTypeName name="java.lang.Object"/>
+    <fullyQualifiedTypeName name="java.util.HashMap"/>
+    <fullyQualifiedTypeName name="Implementacion.ImplementacionGenerica"/>
+    <fullyQualifiedTypeName name="Entidades.Fruta"/>
+    <fullyQualifiedTypeName name="Implementacion.ImpFruta"/>
 </qualifiedTypeNameHistroy>
